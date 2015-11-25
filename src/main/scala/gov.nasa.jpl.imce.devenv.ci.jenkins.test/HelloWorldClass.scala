@@ -36,4 +36,8 @@ class HelloWorldClass {
     */
   def calculateSquare(x: Int): Int = x * x
 
+  /** Function that outputs "foo" to the command line
+    */
+  def fooFunction() = saySomething("foo")
+
 }
