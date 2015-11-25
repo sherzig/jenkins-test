@@ -38,6 +38,6 @@ class HelloWorldClass {
 
   /** Function that outputs "foo" to the command line
     */
-  def fooFunction() = saySomething("foo-foo")
+  def fooFunction() = saySomething("foo-foo-foo")
 
 }
