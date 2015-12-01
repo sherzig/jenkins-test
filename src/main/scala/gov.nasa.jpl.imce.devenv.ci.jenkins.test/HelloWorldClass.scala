@@ -40,6 +40,6 @@ class HelloWorldClass {
     */
   def fooFunction() = saySomething("foo-foo-foo")
 
-  def newFooFunction() = saySomething("omgz foo barz o.O - testings")
+  def newFooFunction() = saySomething("omgz foo barz o.O - testinggs")
 
 }
