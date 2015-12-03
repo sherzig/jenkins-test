@@ -42,4 +42,8 @@ class HelloWorldClass {
 
   def newFooFunction() = saySomething("omgz foo barz o.O - testinggs")
 
+  /** Added to address feature request TP-1
+    */
+  def aRandomFunction() = saySomething("This is random text")
+
 }
