@@ -44,6 +44,6 @@ class HelloWorldClass {
 
   /** Added to address feature request TP-1
     */
-  def aRandomFunction() = saySomething("This is random texts")
+  def aRandomFunction() = saySomething("This is random texters")
 
 }
