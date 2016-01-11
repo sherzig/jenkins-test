@@ -29,16 +29,17 @@ class HelloWorldClass {
   def saySomething(something: String) =
     println(something)
 
+  /** Function that outputs "foo" to the command line - this is
+    * done in response to a new feature request.
+    */
+  def fooFunction() = saySomething("foo-foo-foo")
+
   /** Determines the square of the argument.
     *
     * @param x The argument to build the square of
     * @return The square of the argument
     */
   def calculateSquare(x: Int): Int = x * x
-
-  /** Function that outputs "foo" to the command line
-    */
-  def fooFunction() = saySomething("foo-foo-foo")
 
   def newFooFunction() = saySomething("omgz foo barz o.O - testinggs")
 
