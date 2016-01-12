@@ -10,7 +10,7 @@ class HelloWorldClass {
 
   val helloWorld = "Hello world!"
 
-  /** Prints "Hello world!" to the terminal
+  /** Prints "Hello world!" to the terminal.
     */
   def sayHello() = saySomething(helloWorld)
 
